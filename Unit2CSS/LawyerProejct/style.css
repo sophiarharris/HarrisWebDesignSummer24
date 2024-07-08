@@ -24,3 +24,7 @@ main {
 footer {
     background-color: #FFF5EE;
 }
+.job-title {
+    font-weight: bold;
+    color:maroon;
+}
