@@ -1,0 +1,16 @@
+#male .active{
+    background-color:#a2662a;
+}
+#male .inactive{
+    background-color: peru;
+}
+#female .active{
+    background-color: seagreen;
+}
+#female .inactive{
+    background-color: mediumaquamarine;
+}
+th{
+    background-color: SteelBlue;
+    color:white;
+}
