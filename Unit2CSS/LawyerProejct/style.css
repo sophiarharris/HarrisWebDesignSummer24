@@ -6,9 +6,21 @@ p {
     font-family: Arial;
 }
 body {
-    background-color: #FFF5EE;
+    background-image: url("Images/LawyerBackgroundImage.jpeg");
 }
 a {
     font-size: 16px;
     font-style: italic;
+}
+header {
+    border-style: solid;
+    background-color:#FFF5EE;
+}
+main {
+    background-color: #FFF5EE;
+    height: 80%;
+    width: 70%;
+}
+footer {
+    background-color: #FFF5EE;
 }
