@@ -20,9 +20,14 @@ main {
     background-color: #FFF5EE;
     height: 80%;
     width: 70%;
+    min-height: 600px;
+    margin:15px;
+    padding:10px;
 }
 footer {
     background-color: #FFF5EE;
+    margin:50px;
+    padding:10px;
 }
 .job-title {
     font-weight: bold;
@@ -40,12 +45,9 @@ img {
     height: 200px;
     width: 200px;
     border: 5px;
+    transition: 1s;
 }
-main {
-    margin:15px;
-    padding:10px;
-}
-footer {
-    margin:50px;
-    padding:10px;
+img:hover {
+    width: 400px;
+    height: 400px;
 }
