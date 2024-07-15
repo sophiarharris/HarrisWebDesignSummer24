@@ -1,0 +1,144 @@
+body {
+    background-color:lightgrey;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+h1 {
+    color:red;
+    text-align: center;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+#falconslogo {
+    width:200px;
+    height:200px;
+}
+.dropbtn {
+  background-color: red;
+  color: black;
+  padding: 10px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background-color: lightgray;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: red;
+}
+footer > a {
+    background-color: red;
+    color:black;
+    font-weight: bold;
+    font-size:x-large;
+}
+#instructions {
+  text-align: right;
+}
+.containers {
+    position: relative;
+    width: 50%;
+}
+.image {
+    display: block;
+    width: 200px;
+    height: 160px;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 160px;
+    width: 200px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: lightgray;
+}
+  
+.containers:hover .overlay {
+    opacity: 1;
+}
+.text {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.ImageSources {
+  font-size: smaller;
+}
+#wiggle {
+  animation: wiggle 2s linear infinite;
+}
+@keyframes wiggle {
+  0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+}
+.wiggle {
+  position: absolute;
+  left: calc(50% - 3em);
+  top: calc(50% - 2em);
+}
+#danny_thomas {
+  filter: grayscale(90%);
+}
+#danny_thomas:hover {
+  filter: opacity(100%);
+}
+#CHSLImage {
+  width:200px;
+  height:155px;
+}
+#StatesImage {
+  width:155px;
+  height:200px;
+}
+.CollegeLogos {
+  width:100px;
+  height:100px
+}
