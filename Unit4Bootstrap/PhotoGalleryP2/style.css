@@ -17,10 +17,33 @@ a{
 a:hover{
     color:#6D7993;;
 }
-
-
-/* Homepage styles*/
+/*Homepage Styles*/
 .cover{
     height:300px;
     margin-top:25%;
+    background-image: url(Images/Homepage_Image.jpeg);
+    background-size: cover;
+}
+main>.col-md-2{
+    height:200px;
+    padding:2em;
+    margin-top:2em;
+}
+.front-logo>h1{
+    color:white;
+    margin: 50px;
+}
+.front-nav-1{
+    background-color: #64271b;
+}
+.front-nav-2{
+    background-color: #354243;
+}
+.front-nav-3{
+    background-color: #80598d;
+}
+/*Castle Gallery Styles*/
+#Castle-Gallery-Header{
+    background-color: #64271b;
+    height: 200px;
 }
