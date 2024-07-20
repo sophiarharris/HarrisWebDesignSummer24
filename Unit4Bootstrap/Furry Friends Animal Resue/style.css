@@ -1,0 +1,17 @@
+header{
+    background-image: url("http://www.publicdomainpictures.net/pictures/30000/velka/cat-1347628091Sbn.jpg");   
+    background-size: cover;
+    opacity:.5;
+    height:250px;
+    padding:100px;
+}
+
+body{
+    background-color:#c7f7ed;
+}
+
+.img-thumbnail{
+    background-color:#d0e5e6;
+    height:250px;
+    width:250px;
+}
