@@ -42,12 +42,15 @@ main>.col-md-2{
 .front-nav-3{
     background-color: #80598d;
 }
-/*Castle Gallery Styles*/
-#Castle-Gallery-Header{
-    background-color: #64271b;
-    height: 200px;
-}
 /*Contact Styles*/
 .contact {
     background-color:#80598d
+}
+/*Gallery Styles*/
+#Gallery-Headers{
+    background-color: #64271b;
+    height: 200px;
+}
+.carousel-caption{
+    background-color: #64271b;
 }
