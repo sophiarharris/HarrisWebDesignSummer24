@@ -1,0 +1,17 @@
+/* Add a transition attribute and padding */
+.card:hover{
+        padding: 10px;
+        transition: .5s;
+        .btn{
+            visibility: visible;
+        }
+}
+
+.btn{
+    width: 100%;
+    visibility: hidden;
+}
+
+.container{
+    margin-top:20%;
+}
