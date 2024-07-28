@@ -1,0 +1,37 @@
+#Homepage-Header{
+  background-image: url(images/homepage2.jpeg);
+  height: 200px;
+}
+#About-Header{
+  background-image: url(images/grass.jpeg);
+  height: 200px;
+}
+#Event-Header{
+  background-image: url(images/Screenshot\ 2024-07-27\ 155857.png);
+  height: 200px;
+}
+#Team-Header{
+  background-image: url(images/workteam.jpeg);
+  height: 200px;
+}
+footer>a{
+  color: white;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col {
+  flex: 25%;
+  padding: 20px;
+}
+@media screen and (max-width: 992px) {
+  .col {
+    flex: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+}
